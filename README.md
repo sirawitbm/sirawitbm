@@ -30,8 +30,19 @@ per-commit too, not just on this page.
 
 ### Things I've built
 
-- **[kanban-overlay](https://github.com/sirawitbm/kanban-overlay)** — a
-  see-through planning board that docks to the Windows taskbar. Sections are
-  time buckets that split themselves as the list grows, and a ghost mode
-  keys out the background entirely so clicks fall straight through to
-  whatever you're actually working in.
+#### [Kanban Overlay](https://github.com/sirawitbm/kanban-overlay)
+
+![Kanban Overlay: a small bar docked inside the Windows taskbar, beside the tray](https://raw.githubusercontent.com/sirawitbm/kanban-overlay/main/docs/bar.png)
+
+A planning board that lives *inside* the Windows taskbar. Most of the time
+it's just that strip beside the clock — what's due today, what's overdue.
+Click it and the board unfolds: tasks grouped by when they're due, splitting
+themselves into weeks and then days as a month fills up. The panels detach
+and float anywhere, and a ghost mode keys the background out entirely so
+clicks fall straight through to whatever you're actually working in.
+
+Built because I wanted my task list on screen while I kept using everything
+else — without giving it a window of its own.
+
+**[Download for Windows](https://github.com/sirawitbm/kanban-overlay/releases/latest)**
+· Python, no dependencies
