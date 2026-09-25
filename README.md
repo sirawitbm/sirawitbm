@@ -1,3 +1,12 @@
+```text
+     ██╗ ██████╗ ███╗   ███╗███████╗
+     ██║██╔═══██╗████╗ ████║██╔════╝
+     ██║██║   ██║██╔████╔██║█████╗  
+██   ██║██║   ██║██║╚██╔╝██║██╔══╝  
+╚█████╔╝╚██████╔╝██║ ╚═╝ ██║███████╗
+ ╚════╝  ╚═════╝ ╚═╝     ╚═╝╚══════╝
+```
+
 ## Hi, I'm Jome 👋
 
 Thailand · TH / EN · 30s
@@ -7,19 +16,24 @@ actually use them. Mostly Python, some JavaScript.
 
 ### How I work
 
-Most of the code here is **AI-assisted**. I build with coding agents
-(mostly Claude Code) rather than typing every line myself, and I'd rather
-say that up front than have you work it out from the commit history.
+Most of the code here is **AI-assisted**. I build with coding agents rather
+than typing every line myself, and I'd rather say that up front than have you
+work it out from the commit history.
 
 What that means in practice:
 
-- I decide what gets built and why, and I spec it out in detail
-- The agent writes most of the code
-- I read it, run it, try to break it, and push back when it's wrong
-- If it's in here, I use it myself
+```text
+  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐    ┌──────────────┐
+  │ I decide     │    │ an agent     │    │ I run it,    │    │ it ships,    │
+  │ what & why,  │───>│ writes the   │───>│ try to break │───>│ and I use it │
+  │ and spec it  │    │ code         │    │ it           │    │ myself       │
+  └──────────────┘    └──────────────┘    └──────┬───────┘    └──────────────┘
+          ^                                      │
+          └────── not right yet? push back ──────┘
+```
 
-Commits made this way carry a `Co-Authored-By:` trailer, so it's visible
-per-commit too, not just on this page.
+When the tool supports it, commits carry a `Co-Authored-By:` trailer as
+well, so it shows up per-commit and not just on this page.
 
 ### What I'm into
 
@@ -46,3 +60,17 @@ else — without giving it a window of its own.
 
 **[Download for Windows](https://github.com/sirawitbm/kanban-overlay/releases/latest)**
 · Python, no dependencies
+
+#### [Aldur Rune Tracker](https://github.com/sirawitbm/aldur-rune-tracker)
+
+<img align="right" width="96" src="https://raw.githubusercontent.com/sirawitbm/aldur-rune-tracker/main/data/RA.jpg" alt="Aldur Rune Tracker logo">
+
+A small overlay for **Path of Exile 2** Grand Expeditions. Hover a rune slot,
+press a hotkey, and it reads the rune straight off the tooltip, remembers
+which Aldur Runes carry forward through the chain, and warns you when the
+slot you're about to pick isn't passable.
+
+It deliberately won't tell you which rune to choose. That part stays yours.
+
+**[Download for Windows](https://github.com/sirawitbm/aldur-rune-tracker/releases/latest)**
+· Python · PySide6 · Windows OCR
