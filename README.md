@@ -74,3 +74,22 @@ It deliberately won't tell you which rune to choose. That part stays yours.
 
 **[Download for Windows](https://github.com/sirawitbm/aldur-rune-tracker/releases/latest)**
 · Python · PySide6 · Windows OCR
+
+#### [Turbo Tracker](https://github.com/sirawitbm/dota2-turbo-tracker)
+
+<img align="right" width="260" src="https://raw.githubusercontent.com/sirawitbm/dota2-turbo-tracker/main/docs/recap.png" alt="Turbo Tracker recap card: Victory as Pudge, 14/5/21">
+
+A game log for **Dota 2 Turbo**, the mode most stat sites barely bother
+with. It listens to Dota's official Game State Integration, so the moment a
+match ends a recap card pops up: result, K/D/A, and *"3rd game on Pudge
+today, 2-1 on him"*. Over time it builds your per-hero record, win rate and
+streaks, and it checks OpenDota so practice games never pollute the Turbo
+numbers.
+
+It only ever sees your own hero. No input, no memory reading, nothing a
+stats site couldn't show you.
+
+**[Download for Windows](https://github.com/sirawitbm/dota2-turbo-tracker/releases/latest)**
+· Python · PySide6
+
+<br clear="right">
