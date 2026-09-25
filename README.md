@@ -30,7 +30,7 @@ per-commit too, not just on this page.
 
 ### Things I've built
 
-- **[overlay-board](https://github.com/YOUR-USERNAME/overlay-board)** — a
+- **[overlay-board](https://github.com/sirawitbm/overlay-board)** — a
   see-through planning board that docks to the Windows taskbar. Sections are
   time buckets that split themselves as the list grows, and a ghost mode
   keys out the background entirely so clicks fall straight through to
