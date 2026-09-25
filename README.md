@@ -61,6 +61,8 @@ else — without giving it a window of its own.
 **[Download for Windows](https://github.com/sirawitbm/kanban-overlay/releases/latest)**
 · Python, no dependencies
 
+---
+
 #### [Aldur Rune Tracker](https://github.com/sirawitbm/aldur-rune-tracker)
 
 <img align="right" width="96" src="https://raw.githubusercontent.com/sirawitbm/aldur-rune-tracker/main/data/RA.jpg" alt="Aldur Rune Tracker logo">
@@ -74,6 +76,10 @@ It deliberately won't tell you which rune to choose. That part stays yours.
 
 **[Download for Windows](https://github.com/sirawitbm/aldur-rune-tracker/releases/latest)**
 · Python · PySide6 · Windows OCR
+
+<br clear="right">
+
+---
 
 #### [Turbo Tracker](https://github.com/sirawitbm/dota2-turbo-tracker)
 
